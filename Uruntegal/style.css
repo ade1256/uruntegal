@@ -710,11 +710,13 @@ a.lihat-semua:hover {
 .panah-kanan {
     background: url(../img/panah-kanan.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     display: block;
     position: relative;
-    width: 24px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     float: right;
+    top: 4px;
     margin-left: 10px;
 }
 
@@ -1469,7 +1471,7 @@ input[type=submit]:hover {
 #section {
     width: 100%;
     min-height: 400px;
-    padding-top: 60px;
+    padding-top: 156px;
     padding-bottom: 60px;
 }
 
